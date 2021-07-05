@@ -1,0 +1,3 @@
+apt list --installed | grep java
+java-common
+sudo apt-get remove java-common
