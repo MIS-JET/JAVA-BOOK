@@ -1,0 +1,18 @@
+# 排除依賴
+<dependency>
+	<groupId>joda-time</groupId>
+	<artifactId>joda-time</artifactId>
+	<version>2.10.10</version>
+	<exclusions>
+		<exclusion>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</exclusion>
+	</exclusions>
+</dependency>
+
+# 依賴清單
+mvn dependency:list
+
+# 依賴樹
+mvn dependency:tree
